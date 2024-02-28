@@ -56,13 +56,8 @@ html {
 
 /* Main */
 .ticket__main {
-  max-width: 1200px;
-}
-
-/* Container */
-.container {
-  width: 100vw;
   margin: 0 auto;
+  width: 100vw;
 }
 
 /* Badge */
@@ -106,11 +101,11 @@ html {
 }
 
 /* Client Ticket */
-.client__ticket {
+.client--ticket {
   height: max-content;
 }
 
-.client__ticket img {
+.client--ticket img {
   height: 4rem;
   width: 4rem;
   object-fit: cover;
@@ -145,7 +140,7 @@ html {
   align-items: center;
 }
 
-.ticket--right {
+.ticket__right {
   display: flex;
   align-items: center;
   width: 50%;
@@ -156,10 +151,4 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.ticket--right {
-  display: flex;
-  align-items: center;
-  width: 50%;
 }
